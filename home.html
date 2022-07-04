@@ -13,23 +13,34 @@
     <title>WindingoEsport</title>
 </head>
 <body>
-<div class="layout_container"> 
+ 
      <!--barra de navegacion-->
+    <nav class="navbar navbar-expand-md">
+    <div class="container-fluid">
+        <!--icono navegacion-->
 
-    <div class="navbar_container textalign_center" >
-        <img class="nav_logo" src="./images/windingo.ico" alt="">
-        
-        <nav class="navbar_main">
-            <ul class="list_style">
-                <li><a href="home.html">Nosotros</a></li>
-                <li><a href="./pages2.0/parteners2.html">Parteners</a></li>
-                <li><a href="./pages2.0/news2.html">News</a></li>
-                <li><a href="./pages2.0/liga2.html">Windingo Pro League</a></li>
-                <li><a href="./pages2.0/contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+      <a class="navbar-brand" href=""> <img class="nav_logo" src="./images/windingo.ico" alt=""></a>
+      <!--button bootstrap-->
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!--menu colapsable-->
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"> <a class="nav-link active" href="./home.html">home</a></li>
+          <li class="nav-item"> <a class="nav-link" href="./pages2.0/liga2.html">Windingo Pro League</a></li>
+          <li class="nav-item"> <a class="nav-link" href="./pages2.0/news2.html">News</a></li>
+          <li class="nav-item"> <a class="nav-link" href="./pages2.0/parteners2.html">Parteners</a></li>
+          <li class="nav-item"> <a class="nav-link" href="./pages2.0/contacto.html">Contacto</a></li> 
+        </ul>
+
+      </div>
+      
     </div>
 
+    </nav>
+    <div class="layout_container">
     <div class="header"> 
         <div class="header_text">
             <div class="header_titles">
