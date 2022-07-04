@@ -1,0 +1,129 @@
+body {
+    font-family: 'League Spartan', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(240, 158, 158);
+    
+}
+body * {
+    border: solid rgb(202, 45, 202) 1px;
+}
+/* layout */
+
+.layout_container div {
+    border: solid black 2px;
+
+}
+.layout_container {
+    border: solid 2px rgb(4, 53, 145);
+    padding: 20px;
+    display: grid;
+    
+    min-height: 100vh;
+    grid-gap: 10px;
+    /*grid areas*/
+    grid-template-rows: auto auto 1fr;
+    grid-template-areas: 
+    "navbar"
+    "header"
+    "contenido"
+    "aside"
+    "footer";
+    
+    
+
+}  
+@media (min-width:500px) {
+    .layout_container {
+        display: grid;
+        min-height: 100vh;
+        grid-gap: 10px;
+        /*grid areas*/
+        grid-template-columns: 4fr 1fr ;
+        grid-template-rows: auto auto 1fr;
+        grid-template-areas: 
+        "navbar navbar"
+        "header aside"
+        "contenido contenido"
+        "footer footer";
+    }
+}
+.navbar_container {
+    grid-area: navbar;
+}
+.header{
+    grid-area: header;
+}
+.contenido{
+    grid-area: contenido;
+}
+.aside {
+    grid-area: aside;
+}
+.footer {
+    grid-area: footer;
+}
+/* Clases generales aplicables*/ 
+
+
+.list_style {
+    list-style: none;
+}
+.textalign_center{
+    text-align: center;
+
+}
+.text_decorationnone {
+    text-decoration: none;
+}
+
+
+
+
+/* estilizando nav bar*/
+
+.navbar_container {
+    background-color: #1c1d25;;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav_logo{
+    width: 100px;
+    height: 100px;
+}
+.navbar_main{
+    min-width: 50%;
+    position: relative;
+    
+    
+}
+.navbar_main a{
+    position: relative;
+    display: block;
+    text-decoration: none;
+    color: #b0b2c3;;
+    font-size: 20px;
+    
+}
+.navbar_main ul {
+    display: flex;
+    justify-content: space-between;
+
+    
+
+}
+/* header main*/
+.header {
+    background: #b0b2c3;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.header_titles h1 {
+    font-size: 3.9975843648em;
+    
+}
+
+
+
