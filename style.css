@@ -5,9 +5,7 @@ body {
     background-color: white;
     
 }
-body * {
-    /* borde solido*/
-}
+
 /* layout */
 
 .layout_container div {
@@ -24,7 +22,7 @@ body * {
     /*grid areas*/
     grid-template-rows: auto auto 1fr;
     grid-template-areas: 
-    "navbar"
+    
     "header"
     "contenido"
     "aside"
@@ -34,9 +32,7 @@ body * {
 
 }  
 
-.navbar_container {
-    grid-area: navbar;
-}
+
 .header{
     grid-area: header;
 }
@@ -74,13 +70,15 @@ body * {
 }
 
 .background-nav {
-    background: #20002c;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #cbb4d4, #20002c);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #cbb4d4, #20002c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}    
+    background: #20002c; 
+    background: -webkit-linear-gradient(to right, #cbb4d4, #20002c);  
+    background: linear-gradient(to right, #cbb4d4, #20002c); 
+} 
+
+
 /* header main*/
 .header {
-    background: #b0b2c3;
+    
     display: flex;
     align-items: center;
     height: 100vh;
