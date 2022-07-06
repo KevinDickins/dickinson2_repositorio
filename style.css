@@ -53,10 +53,8 @@ body {
     background: -webkit-linear-gradient(to right, #cbb4d4, #20002c);  
     background: linear-gradient(to right, #cbb4d4, #20002c); 
 } 
-/* carrusel imagenes*/
-.image-carousel{
-    image-resolution: 300px;
-}
+
+
 
 
 
@@ -73,7 +71,7 @@ body {
     background-color: black;
 }
 
-/* slider */
+/* slider carousel */
 .slider {
     padding: 15px;
     width: 75vw;
@@ -112,10 +110,128 @@ body {
 
 }
 /* section presentacion de windingo*/
-.img-lan-section{
-    width: 480px;
+.contenedor-img-lan{
+    width: 10px;
+    
 }
 
+
+/*footer*/
+footer {
+    width: 100%;
+    bottom: 0;
+    background: linear-gradient(to right, #362042ce, #002d0d);
+    color: #fff;
+    padding: 50px 30px; 
+    border-top-left-radius: 150px;
+    font-size: 15px;
+    line-height: 20px;
+}
+.list-footer {
+    list-style: none;
+    text-decoration: none;
+    color: #20002c;
+    
+
+}
+.list-footer ul li a {
+    text-decoration: none;
+}
+.social-links{
+    display: flex;
+    flex-direction: column;
+}
+.social-icons {
+    width: 200px;
+
+}
+/* news windingo pagina */
+span{
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+
+}
+.section-head {
+    margin-bottom: 60px;
+
+}
+.section-head h2 {
+    position: relative;
+    padding: 0;
+    color: #20002c;
+    line-height: 1;
+    letter-spacing: 0.3px;
+    font-size: 34px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: none;
+    margin-bottom: 30px;
+
+
+}
+.section-head h2::before {
+    content: "";
+    width: 60px;
+    height: 3px;
+    background: #20002c;  
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right:0;
+    margin: 0 auto;
+}
+.section-head h2 span{
+    font-weight: 700px;
+    padding-bottom: 5px;
+    color: #464545;
+}
+.section-head p{
+    color: #818181;
+    font-size:16px ;
+    line-height: 28px;
+    text-align: center;
+}
+.item {
+    background-color: #fff;
+    text-align: center;
+    padding: 30px 25px;
+    box-shadow: 0 0 25px rgb(0, 0, 0, 0.07);
+    border-radius: 20px;
+    margin-bottom: 30px;
+    border: 5px solid rgb(0, 0, 0, 0.07);
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+
+}
+.item:hover{
+    background-color: #5c4e61;
+    box-shadow: 0 8px 20px 0 rgb(0, 0, 0, 0.2);
+    --webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.item:hover .item,
+.item:hover span.icon {
+    background-color: white;
+    border-radius: 10px;
+    transition: all 0.5s ease 0s;
+}
+.item:hover h6,
+.item:hover p {
+    color:#fff;
+    --webkit-transition:all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+
+}
+.item .icon {
+    font-size: 40px;
+    margin-bottom: 25px;
+    color: #5c4e61;
+    width: 90px;
+    height: 90px;
+    line-height: 96px;
+    border-radius: 50px;
+}
 
 
 
