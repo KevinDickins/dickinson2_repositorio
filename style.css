@@ -110,10 +110,7 @@ body {
 
 }
 /* section presentacion de windingo*/
-.contenedor-img-lan{
-    width: 10px;
-    
-}
+
 
 
 /*footer*/
@@ -146,6 +143,9 @@ footer {
 
 }
 /* news windingo pagina */
+.body-news{
+    background: linear-gradient(#283048, #859398);
+}
 span{
     display: inline-block;
     text-decoration: none;
@@ -162,7 +162,7 @@ span{
     color: #20002c;
     line-height: 1;
     letter-spacing: 0.3px;
-    font-size: 34px;
+    font-size: 40px;
     font-weight: 700;
     text-align: center;
     text-transform: none;
@@ -183,12 +183,12 @@ span{
 }
 .section-head h2 span{
     font-weight: 700px;
-    padding-bottom: 5px;
-    color: #464545;
+    padding-bottom: 4px;
+    color: #d3d3d3;
 }
 .section-head p{
-    color: #818181;
-    font-size:16px ;
+    color: #000000;
+    font-size:20px ;
     line-height: 28px;
     text-align: center;
 }
