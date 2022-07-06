@@ -4,47 +4,25 @@ body {
     padding: 0%;
     background-color: white;
     
+
+
+}
+:root{
+    --clip: polygon(0 0, 0% 100%, 0 100%);
+
 }
 
 /* layout */
 
-.layout_container div {
+.layout_container {
     border: solid black 2px;
 
 }
-.layout_container {
-    border: solid 2px rgb(0, 0, 0);
-    padding: 20px;
-    display: grid;
-    
-    min-height: 100vh;
-    grid-gap: 10px;
-    /*grid areas*/
-    grid-template-rows: auto auto 1fr;
-    grid-template-areas: 
-    
-    "header"
-    "contenido"
-    "aside"
-    "footer";
-    
-    
-
-}  
 
 
-.header{
-    grid-area: header;
-}
-.contenido{
-    grid-area: contenido;
-}
-.aside {
-    grid-area: aside;
-}
-.footer {
-    grid-area: footer;
-}
+
+
+
 /* Clases generales aplicables*/ 
 
 
@@ -74,76 +52,28 @@ body {
     background: -webkit-linear-gradient(to right, #cbb4d4, #20002c);  
     background: linear-gradient(to right, #cbb4d4, #20002c); 
 } 
+/* carrusel imagenes*/
+.image-carousel{
+    image-resolution: 300px;
+}
+
 
 
 /* header main*/
-.header {
-
-
-   display: flex;
-   align-items: center;
-   padding: 20px;
-   height: 100vh;
-}
-.texts {
-    align-items: flex-start;
-}
-.item {
-    position: relative;
-    padding-left: 1rem;
+.header-me{
     
-    
+    height: 500px;
+    background-image: url(./images/predi_4977.png);
+    background-position: center;
+    background-repeat: no-repeat;
     
 }
-.name {
-    font-size: 3rem;
-   
-    
-}
-.paragraph {
-    font-size: 2rem;
-    font-weight: 300;
-
-}
-.item::before {
-    content: "" ;
-    display: block;
-    background: slateblue;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top:0 ;
-    left:0;
-    z-index:-1;
-    
-  
-}
-.paragraph::before {
-    background-color: rgb(208, 95, 39);
-
-}
-
-:root{
-    --clippy: clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
-
+.background-header {
+    background-color: black;
 }
 
 
 
-/*media query*/
-@media (min-width:500px) {
-    .layout_container {
-        display: grid;
-        min-height: 100vh;
-        grid-gap: 10px;
-        /*grid areas*/
-        grid-template-columns: 4fr 1fr ;
-        grid-template-rows: auto auto 1fr;
-        grid-template-areas: 
-        "navbar navbar"
-        "header aside"
-        "contenido contenido"
-        "footer footer";
-    }
-}
+
+
 
