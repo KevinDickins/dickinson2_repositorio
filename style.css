@@ -2,7 +2,7 @@ body {
     font-family: 'League Spartan', sans-serif;
     margin: 0%;
     padding: 0%;
-    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(67.5deg, rgb(215, 215, 215) 0%, rgb(215, 215, 215) 46%,rgb(198, 198, 198) 46%, rgb(198, 198, 198) 49%,rgb(181, 181, 181) 49%, rgb(181, 181, 181) 56%,rgb(164, 164, 164) 56%, rgb(164, 164, 164) 61%,rgb(146, 146, 146) 61%, rgb(146, 146, 146) 75%,rgb(129, 129, 129) 75%, rgb(129, 129, 129) 84%,rgb(112, 112, 112) 84%, rgb(112, 112, 112) 100%),linear-gradient(22.5deg, rgb(215, 215, 215) 0%, rgb(215, 215, 215) 46%,rgb(198, 198, 198) 46%, rgb(198, 198, 198) 49%,rgb(181, 181, 181) 49%, rgb(181, 181, 181) 56%,rgb(164, 164, 164) 56%, rgb(164, 164, 164) 61%,rgb(146, 146, 146) 61%, rgb(146, 146, 146) 75%,rgb(129, 129, 129) 75%, rgb(129, 129, 129) 84%,rgb(112, 112, 112) 84%, rgb(112, 112, 112) 100%),linear-gradient(112.5deg, rgb(215, 215, 215) 0%, rgb(215, 215, 215) 46%,rgb(198, 198, 198) 46%, rgb(198, 198, 198) 49%,rgb(181, 181, 181) 49%, rgb(181, 181, 181) 56%,rgb(164, 164, 164) 56%, rgb(164, 164, 164) 61%,rgb(146, 146, 146) 61%, rgb(146, 146, 146) 75%,rgb(129, 129, 129) 75%, rgb(129, 129, 129) 84%,rgb(112, 112, 112) 84%, rgb(112, 112, 112) 100%),linear-gradient(90deg, rgb(231, 231, 231),rgb(195, 195, 195)); background-blend-mode:overlay,overlay,overlay,normal;
     
 
 
@@ -49,10 +49,11 @@ body {
 }
 
 .background-nav {
-    background: #20002c; 
-    background: -webkit-linear-gradient(to right, #cbb4d4, #20002c);  
-    background: linear-gradient(to right, #cbb4d4, #20002c); 
+    background-image: linear-gradient(90deg, rgb(188, 188, 188),rgb(172, 172, 172)),linear-gradient(45deg, rgb(164, 46, 188) 0%, rgb(164, 46, 188) 14%,rgb(165, 82, 189) 14%, rgb(165, 82, 189) 20%,rgb(165, 117, 190) 20%, rgb(165, 117, 190) 23%,rgb(166, 153, 191) 23%, rgb(166, 153, 191) 30%,rgb(166, 188, 192) 30%, rgb(166, 188, 192) 37%,rgb(167, 224, 193) 37%, rgb(167, 224, 193) 100%),linear-gradient(135deg, rgb(164, 46, 188) 0%, rgb(164, 46, 188) 14%,rgb(165, 82, 189) 14%, rgb(165, 82, 189) 20%,rgb(165, 117, 190) 20%, rgb(165, 117, 190) 23%,rgb(166, 153, 191) 23%, rgb(166, 153, 191) 30%,rgb(166, 188, 192) 30%, rgb(166, 188, 192) 37%,rgb(167, 224, 193) 37%, rgb(167, 224, 193) 100%); background-blend-mode:overlay,overlay,normal;
+    
+   
 } 
+
 .link-colors a {
     color: rgb(201, 201, 201);
 
@@ -90,14 +91,14 @@ header img {
 .content h1 {
     margin: 0;
     text-transform: uppercase;
-    font-size: 3.5em;
+    font-size: 3em;
     font-weight: 800;
     
 
 }
 .content {
     
-    background-color: rgb(87, 87, 87);
+    background-image: linear-gradient(0deg, transparent 0%, transparent 58%,rgba(104, 104, 104,0.05) 58%, rgba(104, 104, 104,0.05) 92%,transparent 92%, transparent 100%),linear-gradient(45deg, transparent 0%, transparent 34%,rgba(104, 104, 104,0.05) 34%, rgba(104, 104, 104,0.05) 77%,transparent 77%, transparent 100%),linear-gradient(0deg, transparent 0%, transparent 33%,rgba(104, 104, 104,0.05) 33%, rgba(104, 104, 104,0.05) 53%,transparent 53%, transparent 100%),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255));
     display: flex;
     justify-content: center;
     clip-path: polygon(12% 0, 100% 0%, 88% 100%, 0% 100%);
@@ -138,11 +139,11 @@ header img {
 
 }
 .anim::before {
-    background-color: rgb(189, 255, 9) ;
+    background-color: rgba(193, 255, 21, 0.775) ;
     animation: showText .8s ease;
 }
 .anim::after  {
-    background-color: rgb(172, 172, 172);
+    background-color: rgb(91, 21, 211);
     animation-delay: .5s;
     animation: showText .6s ease;
 }
@@ -151,7 +152,7 @@ header img {
     
     opacity: 0;
     
-    animation: animateText 6s forwards;
+    animation: animateText 4s forwards;
 }
 @keyframes animateText {
     from {
@@ -161,7 +162,7 @@ header img {
     }
     to {
         opacity: 1;
-        color: rgb(149, 149, 149);
+        color: rgba(129, 129, 129, 0.681);
         
 
     }
@@ -230,24 +231,39 @@ header img {
 }
 /* section presentacion de windingo*/
 .image-lan {
-    height: 400px;
+    width: 100%;
+    max-width: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
     
     
+
 }
+.description-image-lan {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.description-image-lan h3 {
+    color: grey;
+    font-size: 2em;
+    
+
+}
+.description-image-lan p {
+    font-size: large;
+}
+
 
 
 .image-fans {
-    height: 500px;
+    width: 100%;
+    max-width: 700px;
     
 }
-.div-flex{
-    display: flex;
-    flex-direction: column;
-    
-}
+
 /* cards*/
 .flip-card {
     background-color: transparent;
@@ -289,6 +305,7 @@ header img {
     justify-content: center;
     
   }
+
   
 
 
@@ -296,38 +313,23 @@ header img {
 
 
 /*footer*/
-footer {
-    width: 100%;
-    bottom: 0;
-    background: linear-gradient(to right, #362042ce, #002d0d);
-    color: #fff;
-    padding: 50px 30px; 
-    border-top-left-radius: 150px;
-    font-size: 15px;
-    line-height: 20px;
+
+
+
+
+
+
+/* parteners windingo pagina */
+.body-parteners{
+    background-image: linear-gradient(180deg, rgb(59, 59, 59),rgb(197, 197, 197)),linear-gradient(225deg, rgb(159, 116, 214) 0%, rgb(159, 116, 214) 25%,rgb(130, 95, 173) 25%, rgb(130, 95, 173) 45%,rgb(101, 74, 132) 45%, rgb(101, 74, 132) 50%,rgb(72, 54, 90) 50%, rgb(72, 54, 90) 52%,rgb(43, 33, 49) 52%, rgb(43, 33, 49) 61%,rgb(14, 12, 8) 61%, rgb(14, 12, 8) 100%),linear-gradient(315deg, rgb(159, 116, 214) 0%, rgb(159, 116, 214) 25%,rgb(130, 95, 173) 25%, rgb(130, 95, 173) 45%,rgb(101, 74, 132) 45%, rgb(101, 74, 132) 50%,rgb(72, 54, 90) 50%, rgb(72, 54, 90) 52%,rgb(43, 33, 49) 52%, rgb(43, 33, 49) 61%,rgb(14, 12, 8) 61%, rgb(14, 12, 8) 100%); background-blend-mode:overlay,overlay,normal;
 }
-.list-footer {
-    list-style: none;
-    text-decoration: none;
-    color: #20002c;
+.background-nav-parteners {
+    background-image: linear-gradient(0deg, rgb(59, 59, 59),rgb(197, 197, 197)),linear-gradient(45deg, rgb(159, 116, 214) 0%, rgb(159, 116, 214) 25%,rgb(130, 95, 173) 25%, rgb(130, 95, 173) 45%,rgb(101, 74, 132) 45%, rgb(101, 74, 132) 50%,rgb(72, 54, 90) 50%, rgb(72, 54, 90) 52%,rgb(43, 33, 49) 52%, rgb(43, 33, 49) 61%,rgb(14, 12, 8) 61%, rgb(14, 12, 8) 100%),linear-gradient(135deg, rgb(159, 116, 214) 0%, rgb(159, 116, 214) 25%,rgb(130, 95, 173) 25%, rgb(130, 95, 173) 45%,rgb(101, 74, 132) 45%, rgb(101, 74, 132) 50%,rgb(72, 54, 90) 50%, rgb(72, 54, 90) 52%,rgb(43, 33, 49) 52%, rgb(43, 33, 49) 61%,rgb(14, 12, 8) 61%, rgb(14, 12, 8) 100%); background-blend-mode:overlay,overlay,normal;
+
     
 
 }
-.list-footer ul li a {
-    text-decoration: none;
-}
-.social-links{
-    display: flex;
-    flex-direction: column;
-}
-.social-icons {
-    width: 200px;
 
-}
-/* news windingo pagina */
-.body-news{
-    background: linear-gradient(#283048, #859398);
-}
 span{
     display: inline-block;
     text-decoration: none;
@@ -341,7 +343,7 @@ span{
 .section-head h2 {
     position: relative;
     padding: 0;
-    color: #20002c;
+    color: #9812c9;
     line-height: 1;
     letter-spacing: 0.3px;
     font-size: 40px;
@@ -369,25 +371,27 @@ span{
     color: #d3d3d3;
 }
 .section-head p{
-    color: #000000;
+    color: #ffffff;
     font-size:20px ;
     line-height: 28px;
     text-align: center;
 }
 .item {
-    background-color: #fff;
+   
+    height:100%;
+    
     text-align: center;
     padding: 30px 25px;
     box-shadow: 0 0 25px rgb(0, 0, 0, 0.07);
     border-radius: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     border: 5px solid rgb(0, 0, 0, 0.07);
     -webkit-transition: all 0.5s ease 0s;
     transition: all 0.5s ease 0s;
 
 }
 .item:hover{
-    background-color: #5c4e61;
+    background-image: linear-gradient(90deg, rgb(188, 188, 188),rgb(172, 172, 172)),linear-gradient(45deg, rgb(164, 46, 188) 0%, rgb(164, 46, 188) 14%,rgb(165, 82, 189) 14%, rgb(165, 82, 189) 20%,rgb(165, 117, 190) 20%, rgb(165, 117, 190) 23%,rgb(166, 153, 191) 23%, rgb(166, 153, 191) 30%,rgb(166, 188, 192) 30%, rgb(166, 188, 192) 37%,rgb(167, 224, 193) 37%, rgb(167, 224, 193) 100%),linear-gradient(135deg, rgb(164, 46, 188) 0%, rgb(164, 46, 188) 14%,rgb(165, 82, 189) 14%, rgb(165, 82, 189) 20%,rgb(165, 117, 190) 20%, rgb(165, 117, 190) 23%,rgb(166, 153, 191) 23%, rgb(166, 153, 191) 30%,rgb(166, 188, 192) 30%, rgb(166, 188, 192) 37%,rgb(167, 224, 193) 37%, rgb(167, 224, 193) 100%); background-blend-mode:overlay,overlay,normal;
     box-shadow: 0 8px 20px 0 rgb(0, 0, 0, 0.2);
     --webkit-transition: all 0.5s ease 0s;
     transition: all 0.5s ease 0s;
@@ -400,19 +404,18 @@ span{
 }
 .item:hover h6,
 .item:hover p {
-    color:#fff;
+    color:rgb(0, 0, 0);
     --webkit-transition:all 0.5s ease 0s;
     transition: all 0.5s ease 0s;
 
 }
-.item .icon {
-    font-size: 40px;
-    margin-bottom: 25px;
-    color: #5c4e61;
-    width: 90px;
-    height: 90px;
-    line-height: 96px;
-    border-radius: 50px;
+.img-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 100%;
+    
 }
 
 
