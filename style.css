@@ -322,7 +322,7 @@ header img {
   }
   
   .flip-card-back {
-    background-color: rgb(0, 0, 0);
+    background-color: transparent;
     color: white;
     transform: rotateY(180deg);
 
