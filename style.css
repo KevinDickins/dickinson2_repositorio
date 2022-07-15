@@ -1,8 +1,8 @@
-body {
+.bodyhome {
     font-family: 'League Spartan', sans-serif;
     margin: 0%;
     padding: 0%;
-    background-image: linear-gradient(126deg, rgba(94, 94, 94, 0.02) 0%, rgba(94, 94, 94, 0.02) 12%,rgba(20, 20, 20, 0.02) 12%, rgba(20, 20, 20, 0.02) 67%,rgba(98, 98, 98, 0.02) 67%, rgba(98, 98, 98, 0.02) 76%,rgba(247, 247, 247, 0.02) 76%, rgba(247, 247, 247, 0.02) 91%,rgba(44, 44, 44, 0.02) 91%, rgba(44, 44, 44, 0.02) 100%),linear-gradient(133deg, rgba(251, 251, 251, 0.02) 0%, rgba(251, 251, 251, 0.02) 33%,rgba(132, 132, 132, 0.02) 33%, rgba(132, 132, 132, 0.02) 43%,rgba(248, 248, 248, 0.02) 43%, rgba(248, 248, 248, 0.02) 58%,rgba(19, 19, 19, 0.02) 58%, rgba(19, 19, 19, 0.02) 89%,rgba(43, 43, 43, 0.02) 89%, rgba(43, 43, 43, 0.02) 100%),linear-gradient(56deg, rgba(4, 4, 4, 0.02) 0%, rgba(4, 4, 4, 0.02) 29%,rgba(242, 242, 242, 0.02) 29%, rgba(242, 242, 242, 0.02) 33%,rgba(38, 38, 38, 0.02) 33%, rgba(38, 38, 38, 0.02) 57%,rgba(138, 138, 138, 0.02) 57%, rgba(138, 138, 138, 0.02) 99%,rgba(210, 210, 210, 0.02) 99%, rgba(210, 210, 210, 0.02) 100%),linear-gradient(114deg, rgba(122, 122, 122, 0.02) 0%, rgba(122, 122, 122, 0.02) 45%,rgba(0, 0, 0, 0.02) 45%, rgba(0, 0, 0, 0.02) 58%,rgba(66, 66, 66, 0.02) 58%, rgba(66, 66, 66, 0.02) 68%,rgba(103, 103, 103, 0.02) 68%, rgba(103, 103, 103, 0.02) 84%,rgba(130, 130, 130, 0.02) 84%, rgba(130, 130, 130, 0.02) 100%),linear-gradient(72deg, rgba(84, 84, 84, 0.02) 0%, rgba(84, 84, 84, 0.02) 1%,rgba(241, 241, 241, 0.02) 1%, rgba(241, 241, 241, 0.02) 12%,rgba(90, 90, 90, 0.02) 12%, rgba(90, 90, 90, 0.02) 15%,rgba(92, 92, 92, 0.02) 15%, rgba(92, 92, 92, 0.02) 54%,rgba(134, 134, 134, 0.02) 54%, rgba(134, 134, 134, 0.02) 100%),linear-gradient(90deg, rgb(8, 8, 8),rgb(220, 220, 220));
+    background-color: black;
     
 
 
@@ -14,6 +14,7 @@ a {
 ul {
     list-style: none;
 }
+
 :root{
     --clip: polygon(0 0, 0% 100%, 0 100%);
 
@@ -55,24 +56,19 @@ ul {
     height: 100px;
 }
 
-.background-nav {
+.background_nav {
     
-  background-image: linear-gradient(157.5deg, rgb(94, 94, 94) 0%, rgb(94, 94, 94) 14%,rgb(116, 116, 116) 14%, rgb(116, 116, 116) 73%,rgb(139, 139, 139) 73%, rgb(139, 139, 139) 74%,rgb(161, 161, 161) 74%, rgb(161, 161, 161) 75%,rgb(183, 183, 183) 75%, rgb(183, 183, 183) 79%,rgb(206, 206, 206) 79%, rgb(206, 206, 206) 88%,rgb(228, 228, 228) 88%, rgb(228, 228, 228) 100%),linear-gradient(45deg, rgb(94, 94, 94) 0%, rgb(94, 94, 94) 14%,rgb(116, 116, 116) 14%, rgb(116, 116, 116) 73%,rgb(139, 139, 139) 73%, rgb(139, 139, 139) 74%,rgb(161, 161, 161) 74%, rgb(161, 161, 161) 75%,rgb(183, 183, 183) 75%, rgb(183, 183, 183) 79%,rgb(206, 206, 206) 79%, rgb(206, 206, 206) 88%,rgb(228, 228, 228) 88%, rgb(228, 228, 228) 100%),linear-gradient(135deg, rgb(94, 94, 94) 0%, rgb(94, 94, 94) 14%,rgb(116, 116, 116) 14%, rgb(116, 116, 116) 73%,rgb(139, 139, 139) 73%, rgb(139, 139, 139) 74%,rgb(161, 161, 161) 74%, rgb(161, 161, 161) 75%,rgb(183, 183, 183) 75%, rgb(183, 183, 183) 79%,rgb(206, 206, 206) 79%, rgb(206, 206, 206) 88%,rgb(228, 228, 228) 88%, rgb(228, 228, 228) 100%),linear-gradient(90deg, rgb(6, 6, 6),rgb(231, 231, 231)); background-blend-mode:overlay,overlay,overlay,normal;  
+  background-color:  #151515;  
     
    
 } 
 
 .link-colors a {
-    color: rgb(40, 40, 40);
+    color: #f9f9f9;
 
 }
 .link-colors a:hover {
-    border-bottom: solid rgb(53, 55, 107) 2px;
-    
-    color: #3e4dcb;
-    
-
-    
+    color: #5cd2b9; 
 }
 
 
@@ -82,12 +78,58 @@ ul {
 
 
 /* header main*/
-header img {
-    width: 100%;
+.border__style div{
+    border: solid white 1px;
+
 }
 
-.background-header {
-    background-color: black;
+
+.background__hero {
+    
+    height: 700px;
+    background-image: 
+    linear-gradient(270deg, #5cd2b9 1%, #04020200 51% ),
+    url(https://evilgeniuses.gg/wp-content/uploads/2020/05/about_4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    
+    
+}
+.hero__titles {
+    text-align: left;
+}
+.hero__title-h5 {
+    color: #5cd2b9 ;
+    font-size: 18px;
+    letter-spacing: 4px;
+    
+}
+.hero__title-h1 {
+    font-size: 75px;
+
+    color:#f9f9f9;
+}
+@media (max-width:767px ) {
+    .hero__title-h1 {
+        font-size: 55px;
+    }
+    .hero__title-h5 {
+        font-size: 12px;
+    }
+}
+
+    
+  
+
+.hero__title-h1 span {
+    color:#5cd2b9 ;
+
+}
+.align-items {
+    display: flex;
+    align-items: center;
 }
 
 
@@ -100,6 +142,7 @@ header img {
 
 .content h1 {
     margin: 0;
+    text-align: center;
     text-transform: uppercase;
     font-size: 3em;
     font-weight: 800;
@@ -107,10 +150,10 @@ header img {
 
 }
 .content {
-    background-image: linear-gradient(0deg, transparent 0%, transparent 58%,rgba(104, 104, 104,0.05) 58%, rgba(104, 104, 104,0.05) 92%,transparent 92%, transparent 100%),linear-gradient(45deg, transparent 0%, transparent 34%,rgba(104, 104, 104,0.05) 34%, rgba(104, 104, 104,0.05) 77%,transparent 77%, transparent 100%),linear-gradient(0deg, transparent 0%, transparent 33%,rgba(104, 104, 104,0.05) 33%, rgba(104, 104, 104,0.05) 53%,transparent 53%, transparent 100%),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255));
-    display: flex;
-    justify-content: center;
-    clip-path: polygon(12% 0, 100% 0%, 88% 100%, 0% 100%);
+
+   display: flex;
+   justify-content: center;
+   clip-path: polygon(12% 0, 100% 0%, 88% 100%, 0% 100%);
 }
 
 
@@ -233,7 +276,168 @@ header img {
     } 
 
 }
+/* cards del inicio*/
+.container-card {
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 40px;
+    margin-top: 60px;
+
+}
+.card-elemento {
+    padding: 10px;
+    position: relative;
+    transition: all .30s ;
+    border-radius: 20px;
+}
+.card-elemento:hover {
+    box-shadow: 1px 1px 20px -10px #20202049;
+}
+.card-elemento:hover .container-icon {
+    margin-top: -110px ;
+    border-radius: 20px 20px 0px 0px;
+
+
+}
+.container-icon {
+    width: 100%;
+    height: 220px;
+    background-color:#5cd2b9;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    transition: all 400ms cubic-bezier(0.5,0,0,1);
+    border-radius: 20px;
+
+    
+}
+.container-icon i {
+    font-size: 150px;
+    color: #f9f9f9 ;
+    transition: all 400ms cubic-bezier(0.5,0,0,1);
+}
+.container-info {
+    width: 100%;
+    height: 220px;
+    color:#f9f9f9 ;
+    background-color:#151515 ;
+    padding: 20px;
+    margin-top: -220px;
+    transition: all 400ms cubic-bezier(0.5,0,0,1);
+    border-radius: 20px;
+
+}
+.card-elemento:hover .container-info {
+    margin-top: 0%;
+    border-radius: 0px 0px 20px 20px;
+    
+}
+.container-info p {
+    font-size: 14px;
+    margin-top: 10px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    box-orient: vertical;
+
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+
+    overflow: hidden;
+}
+.container-info input {
+    margin-top: 20px;
+    padding: 10px 40px;
+    background-color: #5cd2b9 ;
+    color: #f9f9f9;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px -5px #20202049 ;
+    transition: box-shadow 300ms;
+}
+.container-info input:hover {
+    box-shadow: 1px 1px 20px -5px #20202070;
+
+
+
+}
+/* cards indivualmente */
+.c1:hover .container-icon {
+    background-color: #0ab0c6 ;
+
+
+
+}
+.c1 .container-icon i{
+    color: #0ab0c6 ;
+
+
+}
+.c1:hover .container-icon i {
+    color:#f9f9f9  ;
+}
+
+/* C2*/
+.c2:hover .container-icon {
+    background-color: #a82bf5 ;
+
+
+
+}
+.c2 .container-icon i{
+    color: #a82bf5  ;
+
+
+}
+.c2:hover .container-icon i {
+    color:#f9f9f9  ;
+}
+/*C3*/
+.c3:hover .container-icon {
+    background-color: #c60a62 ;
+
+
+
+}
+.c3 .container-icon i{
+    color:#c60a62;
+
+
+}
+.c3:hover .container-icon i {
+    color:#f9f9f9  ;
+}
+/* boxs */
+.info-box{
+    width: 100%;
+    height: 100%;
+    border: solid white;
+    background-color: bisque;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
 /* section presentacion de windingo*/
+
 .image-lan {
     width: 100%;
     max-width: 800px;
