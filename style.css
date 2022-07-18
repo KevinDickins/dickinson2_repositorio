@@ -650,9 +650,62 @@ span{
     width: 100%;
     
 }
+/* contacto */
 
+.body_contact{
+    
+    
+    margin: 0;
+    padding: 0;
+    background-image: url(./images/fondoheader.png);
+    background-size: 100%;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
+.h1_contact{
+    padding: 20px;
+    text-transform: uppercase;
+    color: #f9f9f9;
 
+}
+.container-form {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    
+}
 
+.formulario{
+    font: 20px;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+.div_redes{
+    width: 50%;
+    text-align: center;
+}
+.redes{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.redes i {
+    font-size: 40px;
+
+}
+.icona i {
+    color:#c60a62 ;
+}
+.iconb i {
+   color:#a82bf5 ;
+
+}
+.iconc i{
+    color:#0ab0c6 ;
+
+}
 
 
