@@ -269,8 +269,8 @@ ul {
 
     }
     100% {
-        -webkit-transform : translateX(calc(-200px *7));
-        transform: translateX:(calc(-200px *7));
+        -webkit-transform :translateX(calc(-200px *7)) ;
+        transform:translateX : (calc(-200px *7));
 
 
     } 
