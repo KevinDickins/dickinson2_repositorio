@@ -1,5 +1,7 @@
+
+
 .bodyhome {
-    font-family: 'League Spartan', sans-serif;
+    
     margin: 0%;
     padding: 0%;
     background-color: black;
@@ -15,10 +17,7 @@ ul {
     list-style: none;
 }
 
-:root{
-    --clip: polygon(0 0, 0% 100%, 0 100%);
 
-}
 
 /* layout */
 
@@ -264,16 +263,16 @@ ul {
 @keyframes scroll {
     0% {
         -webkit-transform: translateX(0);
-        transform: translateX:(0);
+         transform: translateX (0);
 
 
     }
     100% {
-        -webkit-transform :translateX(calc(-200px *7)) ;
-        transform:translateX : (calc(-200px *7));
+        -webkit-transform :translateX (calc(-200px *7)) ;
+        transform:translateX (calc(-200px *7));
 
 
-    } 
+     }
 
 }
 /* cards del inicio*/

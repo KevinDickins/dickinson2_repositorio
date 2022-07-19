@@ -1,0 +1,28 @@
+@mixin reset-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+@mixin logo-default {
+    width: 100px;
+    height: 100px;
+    
+}
+@mixin text-decoration-center {
+    text-align: center;
+    text-decoration: none;
+}
+@mixin backgroundimg-position-repeat-size {
+    
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    
+}
+@mixin align-item-center {
+    .align-items {
+        display: flex;
+        align-items: center;
+    }
+    
+}

@@ -1,0 +1,45 @@
+.bodyhome {
+    background-color:$global-color-secondary ;
+
+}
+
+
+.background__hero {
+    
+    height: 700px;
+    background-image: 
+    linear-gradient(270deg, $global-color-grediente-one 1%, $global-color-grediente-three 51% ),
+    url(https://evilgeniuses.gg/wp-content/uploads/2020/05/about_4.png);
+    @include backgroundimg-position-repeat-size;
+    
+}
+.hero__titles {
+    text-align: left ;
+    &-h1{
+        font-size: $global-typography-font-size-title;
+        & span {
+            color: $global-color-primary;
+        }
+
+    }
+
+    &-h5 {
+        color: $global-color-primary ;
+        font-size: 18px;
+        letter-spacing: 4px;
+
+    }
+    
+    
+}
+@media (max-width:767px ) {
+    .hero__title-h1 {
+        font-size: 55px;
+    }
+    .hero__title-h5 {
+        font-size: 12px;
+    }
+}
+.align-items {
+    @include align-item-center;
+}

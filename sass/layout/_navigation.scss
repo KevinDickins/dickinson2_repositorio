@@ -1,0 +1,14 @@
+.background-nav {
+    background-color: $global-color-secondary;
+
+}
+.link-colors a {
+    color:$global-color-links ;
+    &:hover {
+        color: $global-color-primary ;
+    }
+
+}
+.nav_logo {
+    @include logo-default
+}

@@ -4,8 +4,9 @@
   "description": "proyecto web windingo",
   "main": "index.js",
   "scripts": {
-    "build": "node-sass --include-path sass ./sass/indexx.scss ./css/style.css -w"
+    "build": "node-sass --include-path sass ./sass/main.scss ./css/style.css -w"
     
+
   },
   "repository": {
     "type": "git",
