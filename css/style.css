@@ -21,7 +21,7 @@
       border-radius: 20px 20px 0px 0px; }
     .card-elemento:hover .container-info {
       margin-top: 0%;
-      border-radius: 0px 0px 20px 20px; }
+      border-radius: 20px 20px 20px 20px; }
 
 .container-icon {
   width: 100%;
@@ -152,23 +152,58 @@
   background-position: right;
   background-size: contain; }
 
-.hero__titles {
-  text-align: left; }
-  .hero__titles-h1 {
-    font-size: 75px; }
-    .hero__titles-h1 span {
-      color: #5CD2B9; }
-  .hero__titles-h5 {
-    color: #5CD2B9;
-    font-size: 18px;
-    letter-spacing: 4px; }
-
-@media (max-width: 767px) {
-  .hero__title-h1 {
-    font-size: 55px; }
-  .hero__title-h5 {
-    font-size: 12px; } }
-
-.align-items .align-items {
+.align-items {
   display: flex;
   align-items: center; }
+
+.hero-titles {
+  text-align: left; }
+  .hero-titles h1 {
+    color: #AAAAAA;
+    font-size: 75px; }
+    .hero-titles h1 span {
+      color: #5CD2B9; }
+  .hero-titles h5 {
+    color: #5CD2B9;
+    font-size: 18px;
+    letter-spacing: 4px;
+    text-transform: uppercase; }
+
+@media (max-width: 767px) {
+  .hero-titles h1 {
+    font-size: 45px; }
+  .hero-titles h5 {
+    font-size: 15px; } }
+
+.border-box {
+  box-sizing: border-box;
+  padding: 10px; }
+
+.video-cont {
+  height: 100%;
+  text-align: left; }
+
+.video-play {
+  box-sizing: border-box;
+  width: auto;
+  height: auto; }
+  .video-play i {
+    font-size: 60px;
+    color: #5CD2B9; }
+
+.right-overlay {
+  margin-top: 5px;
+  padding: 10px;
+  display: flex; }
+  .right-overlay .linear-division {
+    margin: 5px;
+    width: 50px;
+    height: 2px;
+    background-color: #5CD2B9; }
+
+.title-end {
+  padding-left: 15px; }
+  .title-endh5 {
+    text-transform: uppercase; }
+  .title-end h6 {
+    color: #AAAAAA; }

@@ -12,7 +12,7 @@
     text-align: center;
     text-decoration: none;
 }
-@mixin backgroundimg-position-repeat-size {
+@mixin backgroundimg-right-norepeat-contain {
     
     background-repeat: no-repeat;
     background-position: right;
@@ -20,9 +20,9 @@
     
 }
 @mixin align-item-center {
-    .align-items {
+    
         display: flex;
         align-items: center;
-    }
+    
     
 }

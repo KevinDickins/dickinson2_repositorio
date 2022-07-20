@@ -10,36 +10,88 @@
     background-image: 
     linear-gradient(270deg, $global-color-grediente-one 1%, $global-color-grediente-three 51% ),
     url(https://evilgeniuses.gg/wp-content/uploads/2020/05/about_4.png);
-    @include backgroundimg-position-repeat-size;
+    @include backgroundimg-right-norepeat-contain;
     
 }
-.hero__titles {
+.align-items {
+    @include align-item-center;
+}
+
+.hero-titles {
     text-align: left ;
-    &-h1{
+    & h1{
+        color: $global-color-text;
         font-size: $global-typography-font-size-title;
         & span {
-            color: $global-color-primary;
+            color:$global-color-primary;
         }
 
     }
 
-    &-h5 {
+     h5 {
         color: $global-color-primary ;
         font-size: 18px;
         letter-spacing: 4px;
+        text-transform: uppercase;
 
     }
     
     
 }
-@media (max-width:767px ) {
-    .hero__title-h1 {
-        font-size: 55px;
+@media (max-width: 767px) {
+    .hero-titles {
+       & h1 {
+        font-size: 45px;
+       }
+       h5 {
+        font-size: 15px;
+       }
     }
-    .hero__title-h5 {
-        font-size: 12px;
-    }
+    
 }
-.align-items {
-    @include align-item-center;
+
+
+.border-box {
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.video-cont {
+    height: 100%;
+    text-align: left;
+}
+.video-play {
+    box-sizing: border-box;
+    width: auto;
+    height: auto;
+    & i{
+        font-size: 60px;
+        color: $global-color-primary;
+    }
+    
+}
+
+.right-overlay {
+    margin-top: 5px;
+    padding: 10px;
+    display: flex;
+    .linear-division {
+        margin: 5px;
+        width: 50px;
+        height: 2px;
+        background-color: $global-color-primary;
+    }
+    
+}
+.title-end {
+    padding-left: 15px;
+    &h5 {
+       
+        text-transform: uppercase;
+
+
+    }
+    & h6 {
+        color: $global-color-text;
+    }
 }
