@@ -61,8 +61,8 @@
     text-align: left;
 }
 .video-play {
-    text-decoration: none;
     
+    text-decoration: none;
     width: auto;
     height: auto;
     
@@ -116,77 +116,62 @@
     }
 }
 /* seccion about header*/
-.background-about{
-    
-    
-    background-color: gray;
-}
 
-/* column left img*/
-container-animation{
-    background: #f0f0f0;
+
+/* column left animacion*/
+
+.container-animation{
+    margin-top: 20px;
+    
     box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
-    height: 100vh;
+    width: auto;
+    height: auto;
   }
   .box {
     border-radius: 20px;
     width: 60px;
     height: 60px;
     background: #f0f0f0;
-    box-shadow:  0 0 0 #cccccc,
-                 0 0 0 #ffffff,
-                  10px 10px 10px #cccccc inset,
-                  -10px -10px 10px #ffffff inset;
+    
     animation: anime 3s cubic-bezier(0.16, 1, 0.3, 1) 1s ;
     animation-fill-mode:forwards;
     /* animation-fill-mode: forwards; */
   }
-
-  @keyframes anime {
+ /* @keyframes anime {
     0% {
       width: 60px;
       height: 60px;
       background: #f0f0f0;
-      box-shadow:  0 0 0 #cccccc,
-                   0 0 0 #ffffff,
-                    10px 10px 10px #cccccc inset,
-                    -10px -10px 10px #ffffff inset;
+      -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.74); 
+      box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.74);
+        
     }
     25% {
       width: 60px;
       height: 60px;
       background: #f8f8f8;
-      box-shadow:  10px 10px 10px #cccccc,
-                   10px 10px 10px #ffffff,
-                   0 0 0 #cccccc inset,
-                   0 0 0 #ffffff inset;
+        
     }
     50% {
       width: 60px;
       height: 240px;
       background: #f8f8f8;
-      box-shadow:  10px 10px 10px #cccccc,
-                   10px 10px 10px #ffffff,
-                   0 0 0 #cccccc inset,
-                   0 0 0 #ffffff inset;
+      
     }
     100% {
       width: 480px;
       height: 240px;
       background: #fafafa;
-      box-shadow:  40px 40px 40px #cccccc,
-                   0 0 0 #ffffff,
-                   0 0 0 #cccccc inset,
-                   2px 2px 2px #ffffff inset;
+      
     }
 
 
 
-  }
+  }*/
+ 
 
 /* column right*/
 .about-info-origen {
@@ -202,7 +187,7 @@ container-animation{
 
 .elemento-title-about {
     text-transform: uppercase;
-    color:  $global-color-text-primary;
+    color:  $global-color-text-secondary;
     font-size: 65px;
     font-weight: 300;
     line-height: 1em;
@@ -218,6 +203,7 @@ container-animation{
     
 }
 .title-social-network  h5{
+    @include text-decoration-center;
     font-size: 15px ;
     color: $global-color-primary;
     letter-spacing: 4px;
@@ -229,25 +215,49 @@ container-animation{
     justify-content: space-around;
     & i {
         font-size: 35px;
-        
-    
-
+     
     }
    
     
 }
 .container-a {
-
-    
     &i{
         color: $global-color-redes-twitter;
     }
-    
 }
-
 .container-b i{
     color: $global-color-redes-twitch;
 }
 .container-c i{
     color: $global-color-redes-instagram;
+}
+/* texto informativo sobre redes estilos*/
+.elemento-left-redes {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+   
+    gap: 10px;
+    background-color: rgb(173, 113, 35);
+
+}
+.elemento-left_titles {
+    & h5 {
+        text-align: left;
+        color: $global-color-text-secondary;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 5px;
+        font-size: 45px ;
+    }
+    & h6 {
+        text-align: left;
+        color: $global-color-place-primary;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-size: 25px ;
+
+    }
+
 }
