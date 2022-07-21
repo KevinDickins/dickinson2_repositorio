@@ -2,6 +2,11 @@
 * {
   font-family: "League Spartan", sans-serif; }
 
+.sinze-button i {
+  font-size: 30px;
+  color: #5CD2B9;
+  border: none; }
+
 /* cards de las redes sociales*/
 .container-card {
   width: 100%;
@@ -103,6 +108,7 @@
 .c3 .container-icon i {
   color: #c60a62; }
 
+/* slider de marcas*/
 .slider {
   padding: 15px;
   width: 100%;
